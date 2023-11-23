@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.navItem {
+  color: #242f51;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.navbar {
+  padding: 0 10rem;
+}
+
+.navbar-toggler {
+  margin-right: 1rem;
+}
+
+.navbar-nav {
+  margin-left: 0;
+}
+
+img.img-fluid.w-80 {
+  margin-right: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
