@@ -9,31 +9,31 @@
 }
 .badge1{
   font-family:  $heroFontFamily;
-  font-size: 1.2 rem;
+  font-size: 20px;
   color: $pink ;
 }
 .badge2{
   font-family:  $heroFontFamily;
-    font-size: 1.2 rem;
+    font-size: 20px;
   color: $blue ;
 }
 .badge3{
 font-family:  $heroFontFamily;
-  font-size: 1.2 rem;
+  font-size: 20px;
   color: $green ;
 }
 .navbar {
     padding: 0 10rem;
   }
-  
+
   .navbar-toggler {
     margin-right: 1rem;
   }
-  
+
   .navbar-nav {
     margin-left: 0;
   }
-  
+
   img.img-fluid.w-80 {
     margin-right: 1rem;
   }
@@ -47,15 +47,20 @@ $textsec3 : #616368 ;
     color:white;
     font-family: 'Poppins';
     font-weight:bold;
-    
+
 }
 .card-text{
     font-family: 'Poppins';
     font-weight:500;
+    color: $gris;
+    font-size: 16px;
 }
 .card-title{
+ font-size: 36px;
     font-family: 'Poppins';
     font-weight:bolder;
+    color: #242f51;
+
 }
 $largesection3:215px;
 $espacetxt-buth:40 px;
@@ -76,30 +81,30 @@ footer {
   .titleFt {
     .titleIntWeb {
       font-weight: $footer-font-weight; 
-      margin-bottom: 4.5rem;   
-      display: flex;
+      margin-bottom: 4.5rem;
+      margin-top: 3rem;
+      font-size: 30px;
       justify-content: center;
       align-items: center;
     }
   }
-
-  .menuFt {
+.menuFt {
     .d-flex {
-      display: flex;
       flex-direction: row;
       justify-content: center;
-
       .p-2 {
         padding: 2rem 2rem;
         margin-right: 1.5rem; // Adjust margin-right for space between menu items
+        font-size: 16px;
       }
     }
   }
+  
 
   .iconsFt {
     margin-top: 3rem; 
-    
-    display: flex;
+margin-bottom: 6rem;
+  
     justify-content: center;
     align-items: center;
 
@@ -122,6 +127,7 @@ section {
 .hero {
   display: flex;
   justify-content: center;
+
   align-items: center;
 }
 
@@ -141,12 +147,21 @@ section {
 }
 
 .h1 {
-  font-size: 3.5rem;
+  font-size: 60px;
   color: $blueMarine;
   font-family: $heroFontFamily;
 }
 
 .h6 {
-  font-size: 1.1rem;
+  font-size: 18px;
   color: $gris;
+}
+.container{
+  margin-top: 3rem;
+  margin-bottom: 11rem;
+}
+.textSection1{
+  font-size: 16px;
+  color: $gris;
+  font-family: $fontTextSection1;
 }
