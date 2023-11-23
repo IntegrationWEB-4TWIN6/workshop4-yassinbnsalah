@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import '_variables';
 .navItem {
-    color: #242f51;
+    color: $NavbarColorItem;
     font-size: 16px;
-    font-family:  'Poppins';
+    font-family:  $navbarFontFamily;
 }
 .navbar {
     padding: 0 10rem;
