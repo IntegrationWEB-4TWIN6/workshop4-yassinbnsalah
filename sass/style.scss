@@ -8,15 +8,18 @@
     font-family:  $navbarFontFamily;
 }
 .badge1{
-  font-family:  $navbarFontFamily;
+  font-family:  $heroFontFamily;
+  font-size: 1.2 rem;
   color: $pink ;
 }
 .badge2{
-  font-family:  $navbarFontFamily;
+  font-family:  $heroFontFamily;
+    font-size: 1.2 rem;
   color: $blue ;
 }
 .badge3{
-font-family:  $navbarFontFamily;
+font-family:  $heroFontFamily;
+  font-size: 1.2 rem;
   color: $green ;
 }
 .navbar {
@@ -68,10 +71,7 @@ footer {
   padding: $footer-padding;
   box-sizing: border-box;
   height: $footer-height;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-family: $footer-font;
 
   .titleFt {
