@@ -8,15 +8,19 @@
     font-family:  $navbarFontFamily;
 }
 .badge1{
-  font-family:  $navbarFontFamily;
+  font-family:  $heroFontFamily;
+
+  font-size:1.2rem ;
   color: $pink ;
 }
 .badge2{
-  font-family:  $navbarFontFamily;
+  font-family: $heroFontFamily;
+  font-size:1.2rem ;
   color: $blue ;
 }
 .badge3{
-font-family:  $navbarFontFamily;
+font-family:  $heroFontFamily;
+font-size: 1.2rem ;
   color: $green ;
 }
 .navbar {
@@ -66,7 +70,6 @@ footer {
   background-color: $footer-background-color;
   color: $footer-text-color;
   padding: $footer-padding;
-  box-sizing: border-box;
   height: $footer-height;
   display: flex;
   flex-direction: column;
@@ -111,7 +114,6 @@ footer {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
 }
 
 .hero {

@@ -8,6 +8,24 @@
   font-family: "Poppins";
 }
 
+.badge1 {
+  font-family: "Poppins SemiBold";
+  font-size: 1.2rem;
+  color: #f88b96;
+}
+
+.badge2 {
+  font-family: "Poppins SemiBold";
+  font-size: 1.2rem;
+  color: #2563ff;
+}
+
+.badge3 {
+  font-family: "Poppins SemiBold";
+  font-size: 1.2rem;
+  color: #40975f;
+}
+
 .navbar {
   padding: 0 10rem;
 }
@@ -49,7 +67,6 @@ footer {
   background-color: #242f51;
   color: white;
   padding: 1rem;
-  box-sizing: border-box;
   height: 24.5rem;
   display: flex;
   flex-direction: column;
@@ -83,7 +100,6 @@ footer .iconsFt i:last-child {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
 }
 
 .hero {
