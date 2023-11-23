@@ -95,3 +95,41 @@ footer {
     }
   }
 }
+
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+.btn {
+  background-color: $roseRouger;
+  border-color: $roseRouger;
+  color: $white;
+  font-size: 1rem;
+  border-radius: 3rem;
+  font-family: $heroFontFamily;
+  padding: 1rem 2rem;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  color: $blueMarine;
+  font-family: $heroFontFamily;
+}
+
+.h6 {
+  font-size: 1.1rem;
+  color: $gris;
+}
